@@ -1,4 +1,4 @@
-package controllers
+package jp.hoge.layered.application.controllers
 
 import play.api._
 import play.api.mvc._
@@ -6,7 +6,7 @@ import play.api.mvc._
 object Application extends Controller {
 
   def index = Action {
-    Ok(views.html.index("Your new application is ready."))
+    Ok(views.html.index("this is a test page."))
   }
 
 }
